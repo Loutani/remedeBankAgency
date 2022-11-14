@@ -6,12 +6,14 @@ import Sign from "./pages/Sign";
 import User from "./pages/User";
 
 import './app.css';
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
         <>
           {/* navbar */}
           <NavBar />
+
           {/* 
             routes
               /
@@ -31,6 +33,7 @@ function App() {
           <Outlet />
 
           {/* footer */}
+          <Footer />
         </>
     );
 }
