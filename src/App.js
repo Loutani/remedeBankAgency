@@ -23,9 +23,10 @@ function App() {
               <Route path="/error" end element={<Error />} />
             </Routes>
           </BrowserRouter>
+          
           {/* outlet */}
           <Outlet />
-          
+
           {/* footer */}
         </>
     );
