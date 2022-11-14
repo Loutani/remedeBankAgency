@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Sign from "./pages/Sign";
@@ -24,7 +24,8 @@ function App() {
             </Routes>
           </BrowserRouter>
           {/* outlet */}
-
+          <Outlet />
+          
           {/* footer */}
         </>
     );
