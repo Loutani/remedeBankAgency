@@ -11,6 +11,9 @@ export const userSlice = createSlice({
       insertProfile: (state, action) => {
         return {...state, user: action.payload}
       },
+      insertJWT: (state, action) => {
+        return {...state, jwt: action.payload}
+      }
     },
   });
   
